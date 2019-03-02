@@ -1,0 +1,103 @@
+
+
+.card_gandalf img
+{
+opacity: .5}
+
+.card_gandalf
+{
+	position: relative;
+width: 350px}
+
+.reward
+{
+	position: absolute;
+	top: 15px;
+	left: 50px;
+  right: 50px;
+	background-color: white;
+	opacity: 0.8;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "sans-serif";
+	font-size: 30px;
+	border-radius: 15px;
+}
+
+span
+{
+	color: orange;
+}
+
+.card_gandalf img:hover
+{
+opacity: 1}
+
+.card_gandalf:hover .reward
+{
+	display: none;
+}
+
+.gandalf
+{
+	color: white;
+	position:absolute;
+	top: 200px;
+	left: 60px;
+	font-size:70px;
+}
+
+.card_gandalf:hover .gandalf
+{
+	top: 350px;
+	left: 120px;
+	font-size: 30px;
+}
+
+table
+{
+	margin: 0 auto;
+  border-collapse: collapse;
+	width: 700px;
+}
+
+td,th
+{
+	border: 1px solid rgb(100, 100, 100);
+	/*ajoute une bordure*/
+	padding: 15px;
+	width: 15%;
+	text-align: center;
+	font-size: 15px;
+}
+
+th
+{
+	background-color: grey;
+	color: white;
+}
+
+tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+.gollum
+{
+	float: right;
+	border-radius: 50%;
+}
+
+footer{
+	left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #262626;
+}
+footer ul{
+  color: white;
+	list-style-type: none; /*enlève les puces*/
+  text-align: center;
+}
