@@ -91,6 +91,8 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 
+/*cards gandalf aragorn gimli*/
+
 .card-body{
 	background-color:  #262626;
 }
@@ -189,6 +191,8 @@ span
 	font-size: 30px;
 }
 
+
+/* how do i get reward*/
 
 .coin{
 	border-radius: 50%;
