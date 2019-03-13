@@ -1,0 +1,279 @@
+@font-face {
+font-family: 'text';
+src: url('police/partybusiness.ttf');
+}
+
+@font-face {
+font-family: 'titre';
+src: url('police/anicb___.ttf');
+}
+
+
+@font-face {
+	font-family: 'symbol';
+	src:url('police/tnganbi.ttf');
+}
+
+.container{
+	font-family: 'text';
+}
+
+
+.pill-up{
+	font-family: 'titre';
+}
+
+.pill-up:hover{
+	text-decoration: underline;
+}
+
+.pill-most{
+		font-size: 1.125em;
+			color:  #808080;
+			font-family: 'titre';
+}
+
+.pill-most:hover{
+  color: #FF5A0B;
+	text-decoration: underline;
+}
+
+
+.titre{
+	font-family: 'titre';
+}
+
+.sign{
+	font-family: 'symbol';
+
+}
+
+.orange-navbar
+{
+background-color: #FF5A0B;
+}
+
+.carousel-caption{
+
+	max-width: 1000px;
+	top: 55%;
+	transform: translateY(-50%);
+}
+
+
+
+.titrecarrousel1{
+	font-size: 70px;
+}
+
+.titrecarrousel2{
+font-size: 50px;
+}
+
+.navstuff{
+font-size: 15px;
+color: white;
+}
+
+.logo{
+	margin-right: 180px;
+}
+
+#fellows{
+	text-align: center;
+	font-size: 1.375em;
+	color: black;
+}
+
+.bracket{
+color: black;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.card-body{
+	background-color:  #262626;
+}
+
+.card_gandalf img{
+opacity: .3}
+
+
+.card_gandalf
+{
+	position: relative;
+}
+.card_gandalf img:hover
+{
+opacity: 1}
+
+.card_gandalf:hover .reward
+{
+	display: none;
+}
+
+.reward
+{
+position: absolute;
+	text-align: center;
+	top: 15px;
+	left: 50px;
+  right: 50px;
+	background-color: white;
+	opacity: 0.7;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.875em;
+	border-radius: 15px;
+}
+
+span
+{
+	color: #FF5A0B;
+}
+
+
+.gandalf
+{
+	color: white;
+	position:absolute;
+	top: 200px;
+	left: 60px;
+	font-size:70px;
+}
+
+.card_gandalf:hover .gandalf
+{
+	top: 350px;
+	left: 120px;
+	font-size: 30px;
+}
+
+
+.dead{
+	position: absolute;
+	top: 30px;
+	left: 125px;
+	font-size: 60px;
+	font-family: "text";
+	color: #FF5A0B;
+}
+
+.card_gandalf:hover .dead{
+	display: none;
+}
+
+.gimli{
+	font-family: 'text';
+	color: white;
+	position: absolute;
+	top: 200px;
+	left: 120px;
+	font-size: 70px;
+	text-decoration: line-through;
+	text-decoration-color: #FF5A0B;
+}
+
+.card_gandalf:hover .gimli
+{
+	top: 350px;
+	left: 120px;
+	font-size: 30px;
+}
+
+
+.card-text{
+	color: white;
+	font-size: 30px;
+}
+
+
+.coin{
+	border-radius: 50%;
+}
+
+.containercontact{
+	background-color:  #262626;
+	color: white;
+	margin-top: 50px;
+}
+
+
+
+.contact_us{
+	float: bottom;
+}
+.capturereward{
+	font-size: 1.375em;
+}
+
+
+.nomhunter{
+	color: #FF5A0B;
+	font-size: 50px;
+}
+
+.nbcapture{
+	font-size: 20px;
+}
+
+
+
+.card-headerring{
+	background-color: #FF5A0B;
+	color: white;
+}
+
+
+table
+{
+	margin: 0 auto;
+  border-collapse: collapse;
+	width: 700px;
+}
+
+th
+{
+	font-size: 30px;
+}
+td{
+	font-size: 25px;
+	color: #404040;
+}
+
+tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+.gollum
+{
+	float: right;
+	width: 200px;
+	height: 200px;
+border-radius: 50%;
+}
+
+
+.form-group{
+	background-image: url('bg_dark.png');
+}
+
+.map{
+	float: right;
+}
+
+.footerbas{
+	left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FF5A0B;
+}
+footer ul{
+  color: white;
+	list-style-type: none; /*enlève les puces*/
+  text-align: center;
+
+}
